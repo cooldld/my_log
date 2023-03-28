@@ -1,0 +1,544 @@
+20230328
+spz0102项目
+拍照时yuv的转换日志
+
+不做clamp操作
+[ 2161.294406] 00:35:52.661 UartTransfer.cpp:1017 8000*6000 48MP
+
+[ 2167.579002] 00:35:58.945 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2167.691995] 00:35:59.058 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2167.867544] 00:35:59.234 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2167.886157] 00:35:59.252 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2168.060149] 00:35:59.426 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2168.095479] 00:35:59.462 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2168.269555] 00:35:59.636 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2168.535619] 00:35:59.901 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0035590659_W.jpg
+
+[ 2177.809353] 00:36:09.176 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2177.953920] 00:36:09.320 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2178.126073] 00:36:09.492 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2178.143969] 00:36:09.510 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2178.311152] 00:36:09.677 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2178.348459] 00:36:09.715 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2178.519388] 00:36:09.886 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2178.791615] 00:36:10.158 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0036090909_W.jpg
+
+[ 2260.696202] 00:37:32.062 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2260.838232] 00:37:32.204 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2261.014072] 00:37:32.380 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2261.032429] 00:37:32.399 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2261.217766] 00:37:32.584 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2261.253303] 00:37:32.619 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2261.421481] 00:37:32.788 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2261.602680] 00:37:32.969 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0037320805_W.jpg
+
+
+[ 2346.333421] 00:38:57.700 UartTransfer.cpp:1022 6080*3420(16:9)
+
+[ 2358.643160] 00:39:10.009 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2358.733096] 00:39:10.099 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2358.815144] 00:39:10.181 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2358.825845] 00:39:10.192 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2358.902917] 00:39:10.269 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2358.913012] 00:39:10.279 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2358.992238] 00:39:10.358 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2359.100349] 00:39:10.466 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0039100370_W.jpg
+
+
+[ 2362.637127] 00:39:14.003 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2362.730109] 00:39:14.096 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2362.807887] 00:39:14.174 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2362.818097] 00:39:14.184 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2362.900542] 00:39:14.267 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2362.911137] 00:39:14.277 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2362.987868] 00:39:14.354 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2363.025658] 00:39:14.392 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0039140364_W.jpg
+
+
+[ 2365.061205] 00:39:16.427 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2365.151569] 00:39:16.518 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2365.232043] 00:39:16.598 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2365.242272] 00:39:16.608 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2365.319064] 00:39:16.685 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2365.329123] 00:39:16.695 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2365.412817] 00:39:16.779 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2365.450325] 00:39:16.816 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0039160789_W.jpg
+
+
+[ 2432.586202] 00:40:23.952 UartTransfer.cpp:1032 5472*3078(16:9)
+
+[ 2444.850488] 00:40:36.217 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2444.961762] 00:40:36.328 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2445.025515] 00:40:36.392 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2445.034453] 00:40:36.401 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2445.097565] 00:40:36.464 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2445.106487] 00:40:36.473 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2445.169250] 00:40:36.535 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2445.231819] 00:40:36.598 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0040360545_W.jpg
+
+[ 2447.295014] 00:40:38.661 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2447.403819] 00:40:38.770 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2447.471538] 00:40:38.838 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2447.480646] 00:40:38.847 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2447.546685] 00:40:38.913 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2447.555983] 00:40:38.922 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2447.623218] 00:40:38.989 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2447.662608] 00:40:39.029 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0040390001_W.jpg
+
+[ 2448.615360] 00:40:39.982 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2448.694323] 00:40:40.060 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2448.762020] 00:40:40.128 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2448.771803] 00:40:40.138 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2448.837512] 00:40:40.204 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2448.847251] 00:40:40.213 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2448.913182] 00:40:40.279 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2448.980403] 00:40:40.347 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0040400289_W.jpg
+
+
+
+有做clamp操作
+[ 2611.448365] 00:43:22.815 UartTransfer.cpp:1017 8000*6000 48MP
+
+[ 2625.042992] 00:43:36.409 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2625.185526] 00:43:36.552 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2625.384874] 00:43:36.751 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2625.403774] 00:43:36.770 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2625.602607] 00:43:36.969 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2625.642461] 00:43:37.009 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2625.843541] 00:43:37.210 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2626.047373] 00:43:37.413 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0043370233_W.jpg
+
+[ 2627.577316] 00:43:38.943 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2627.712267] 00:43:39.078 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2627.913814] 00:43:39.280 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2627.933332] 00:43:39.299 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2628.131452] 00:43:39.498 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2628.166072] 00:43:39.532 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2628.358868] 00:43:39.725 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2628.615222] 00:43:39.981 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0043390748_W.jpg
+
+[ 2630.386682] 00:43:41.753 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2630.512672] 00:43:41.879 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2630.711926] 00:43:42.078 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2630.730710] 00:43:42.097 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2630.931447] 00:43:42.298 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2630.968601] 00:43:42.335 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=8000, height=6000
+[ 2631.163236] 00:43:42.529 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2631.415274] 00:43:42.781 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0043420547_W.jpg
+
+
+[ 2782.796473] 00:46:14.163 UartTransfer.cpp:1022 6080*3420(16:9)
+
+[ 2785.221297] 00:46:16.587 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2785.314415] 00:46:16.681 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2785.406222] 00:46:16.772 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2785.416532] 00:46:16.783 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2785.504528] 00:46:16.871 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2785.533816] 00:46:16.900 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2785.625432] 00:46:16.992 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2785.664588] 00:46:17.031 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0046170002_W.jpg
+
+[ 2789.470407] 00:46:20.837 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2789.572746] 00:46:20.939 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2789.664284] 00:46:21.030 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2789.674321] 00:46:21.040 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2789.763057] 00:46:21.129 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2789.792753] 00:46:21.159 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2789.883779] 00:46:21.250 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2789.984394] 00:46:21.350 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0046210262_W.jpg
+
+[ 2791.537018] 00:46:22.903 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2791.628710] 00:46:22.995 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2791.723012] 00:46:23.089 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2791.733081] 00:46:23.099 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2791.822155] 00:46:23.188 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2791.832197] 00:46:23.198 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=6080, height=3420
+[ 2791.920630] 00:46:23.286 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2792.005048] 00:46:23.371 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0046230297_W.jpg
+
+
+[ 2920.148500] 00:48:31.515 UartTransfer.cpp:1032 5472*3078(16:9)
+
+[ 2921.502611] 00:48:32.869 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2921.575489] 00:48:32.942 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2921.650667] 00:48:33.017 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2921.659638] 00:48:33.026 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2921.731911] 00:48:33.098 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2921.741263] 00:48:33.107 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2921.813443] 00:48:33.180 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2921.839741] 00:48:33.206 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0048330189_W.jpg
+
+[ 2922.483454] 00:48:33.850 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2922.572778] 00:48:33.939 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2922.647893] 00:48:34.014 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2922.656847] 00:48:34.023 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2922.729074] 00:48:34.095 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2922.738089] 00:48:34.104 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2922.811133] 00:48:34.177 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2922.857222] 00:48:34.223 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0048340187_W.jpg
+
+[ 2923.466730] 00:48:34.833 UartTransfer.cpp:2601 single photo or burst photo start
+[ 2923.543812] 00:48:34.910 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2923.623387] 00:48:34.989 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2923.632539] 00:48:34.999 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2923.705167] 00:48:35.071 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2923.714069] 00:48:35.080 SensorIMX415.cpp:2305 yuv_range_expand_yuyv start, width=5472, height=3078
+[ 2923.785932] 00:48:35.152 SensorIMX415.cpp:2329 yuv_range_expand_yuyv end
+[ 2923.880570] 00:48:35.247 PhotoService.cpp:433 filepath=/sdcard/VIS/PHOTO/20220101_0048350161_W.jpg
+
+20230325
+spz0203项目
+//日志输出ot_isp_dcf_info信息
+void ot_isp_dcf_info_print(ot_isp_dcf_info *isp_dcf)
+{
+    clog("%s start", __FUNCTION__);
+
+    clog("isp_dcf->isp_dcf_const_info.image_description[0]=%d", isp_dcf->isp_dcf_const_info.image_description[0]);
+    clog("isp_dcf->isp_dcf_const_info.make[0]=%d", isp_dcf->isp_dcf_const_info.make[0]);
+    clog("isp_dcf->isp_dcf_const_info.model[0]=%d", isp_dcf->isp_dcf_const_info.model[0]);
+    clog("isp_dcf->isp_dcf_const_info.software[0]=%d", isp_dcf->isp_dcf_const_info.software[0]);
+    clog("isp_dcf->isp_dcf_const_info.light_source=%d", isp_dcf->isp_dcf_const_info.light_source);
+    clog("isp_dcf->isp_dcf_const_info.focal_length=%d", isp_dcf->isp_dcf_const_info.focal_length);
+    clog("isp_dcf->isp_dcf_const_info.scene_type=%d", isp_dcf->isp_dcf_const_info.scene_type);
+    clog("isp_dcf->isp_dcf_const_info.custom_rendered=%d", isp_dcf->isp_dcf_const_info.custom_rendered);
+    clog("isp_dcf->isp_dcf_const_info.focal_length_in35mm_film=%d", isp_dcf->isp_dcf_const_info.focal_length_in35mm_film);
+    clog("isp_dcf->isp_dcf_const_info.scene_capture_type=%d", isp_dcf->isp_dcf_const_info.scene_capture_type);
+    clog("isp_dcf->isp_dcf_const_info.gain_control=%d", isp_dcf->isp_dcf_const_info.gain_control);
+    clog("isp_dcf->isp_dcf_const_info.contrast=%d", isp_dcf->isp_dcf_const_info.contrast);
+    clog("isp_dcf->isp_dcf_const_info.saturation=%d", isp_dcf->isp_dcf_const_info.saturation);
+    clog("isp_dcf->isp_dcf_const_info.sharpness=%d", isp_dcf->isp_dcf_const_info.sharpness);
+    clog("isp_dcf->isp_dcf_const_info.metering_mode=%d", isp_dcf->isp_dcf_const_info.metering_mode);
+
+    clog("isp_dcf->isp_dcf_update_info.iso_speed_ratings=%d", isp_dcf->isp_dcf_update_info.iso_speed_ratings);
+    clog("isp_dcf->isp_dcf_update_info.exposure_time=%d", isp_dcf->isp_dcf_update_info.exposure_time);
+    clog("isp_dcf->isp_dcf_update_info.exposure_bias_value=%d", isp_dcf->isp_dcf_update_info.exposure_bias_value);
+    clog("isp_dcf->isp_dcf_update_info.exposure_program=%d", isp_dcf->isp_dcf_update_info.exposure_program);
+    clog("isp_dcf->isp_dcf_update_info.f_number=%d", isp_dcf->isp_dcf_update_info.f_number);
+    clog("isp_dcf->isp_dcf_update_info.max_aperture_value=%d", isp_dcf->isp_dcf_update_info.max_aperture_value);
+    clog("isp_dcf->isp_dcf_update_info.exposure_mode=%d", isp_dcf->isp_dcf_update_info.exposure_mode);
+    clog("isp_dcf->isp_dcf_update_info.white_balance=%d", isp_dcf->isp_dcf_update_info.white_balance);
+
+    clog("%s end", __FUNCTION__);
+}
+
+<3>06:46:40.700 TripleCamera.cpp:3928 ot_isp_dcf_info_print start
+<3>06:46:40.700 TripleCamera.cpp:3930 isp_dcf->isp_dcf_const_info.image_description[0]=0
+<3>06:46:40.700 TripleCamera.cpp:3931 isp_dcf->isp_dcf_const_info.make[0]=0
+<3>06:46:40.700 TripleCamera.cpp:3932 isp_dcf->isp_dcf_const_info.model[0]=0
+<3>06:46:40.700 TripleCamera.cpp:3933 isp_dcf->isp_dcf_const_info.software[0]=0
+<3>06:46:40.700 TripleCamera.cpp:3934 isp_dcf->isp_dcf_const_info.light_source=0
+<3>06:46:40.700 TripleCamera.cpp:3935 isp_dcf->isp_dcf_const_info.focal_length=0
+<3>06:46:40.700 TripleCamera.cpp:3936 isp_dcf->isp_dcf_const_info.scene_type=0
+<3>06:46:40.700 TripleCamera.cpp:3937 isp_dcf->isp_dcf_const_info.custom_rendered=0
+<3>06:46:40.700 TripleCamera.cpp:3938 isp_dcf->isp_dcf_const_info.focal_length_in35mm_film=0
+<3>06:46:40.700 TripleCamera.cpp:3939 isp_dcf->isp_dcf_const_info.scene_capture_type=0
+<3>06:46:40.700 TripleCamera.cpp:3940 isp_dcf->isp_dcf_const_info.gain_control=0
+<3>06:46:40.700 TripleCamera.cpp:3941 isp_dcf->isp_dcf_const_info.contrast=0
+<3>06:46:40.700 TripleCamera.cpp:3942 isp_dcf->isp_dcf_const_info.saturation=0
+<3>06:46:40.700 TripleCamera.cpp:3943 isp_dcf->isp_dcf_const_info.sharpness=0
+<3>06:46:40.700 TripleCamera.cpp:3944 isp_dcf->isp_dcf_const_info.metering_mode=0
+<3>06:46:40.700 TripleCamera.cpp:3946 isp_dcf->isp_dcf_update_info.iso_speed_ratings=106670
+<3>06:46:40.700 TripleCamera.cpp:3947 isp_dcf->isp_dcf_update_info.exposure_time=65567
+<3>06:46:40.700 TripleCamera.cpp:3948 isp_dcf->isp_dcf_update_info.exposure_bias_value=256
+<3>06:46:40.700 TripleCamera.cpp:3949 isp_dcf->isp_dcf_update_info.exposure_program=2
+<3>06:46:40.700 TripleCamera.cpp:3950 isp_dcf->isp_dcf_update_info.f_number=36700260
+<3>06:46:40.700 TripleCamera.cpp:3951 isp_dcf->isp_dcf_update_info.max_aperture_value=36700260
+<3>06:46:40.700 TripleCamera.cpp:3952 isp_dcf->isp_dcf_update_info.exposure_mode=0
+<3>06:46:40.700 TripleCamera.cpp:3953 isp_dcf->isp_dcf_update_info.white_balance=0
+<3>06:46:40.700 TripleCamera.cpp:3955 ot_isp_dcf_info_print end
+
+
+20230325
+spz0203项目
+//日志输出ot_isp_wb_attr信息
+void ot_isp_wb_attr_print(const ot_isp_wb_attr *wb_attr)
+{
+    clog("%s start", __FUNCTION__);
+
+    clog("wb_attr->bypass=%d", wb_attr->bypass);
+    clog("wb_attr->awb_run_interval=%d", wb_attr->awb_run_interval);
+    clog("wb_attr->op_type=%d", wb_attr->op_type);
+    //wb_attr->manual_attr
+    clog("wb_attr->manual_attr.r_gain=%d", wb_attr->manual_attr.r_gain);
+    clog("wb_attr->manual_attr.gr_gain=%d", wb_attr->manual_attr.gr_gain);
+    clog("wb_attr->manual_attr.gb_gain=%d", wb_attr->manual_attr.gb_gain);
+    clog("wb_attr->manual_attr.b_gain=%d", wb_attr->manual_attr.b_gain);
+    //wb_attr->auto_attr
+    clog("wb_attr->auto_attr.enable=%d", wb_attr->auto_attr.enable);
+    clog("wb_attr->auto_attr.ref_color_temp=%d", wb_attr->auto_attr.ref_color_temp);
+    clog("wb_attr->auto_attr.static_wb[0]=%d", wb_attr->auto_attr.static_wb[0]);
+    clog("wb_attr->auto_attr.curve_para[0]=%d", wb_attr->auto_attr.curve_para[0]);
+    clog("wb_attr->auto_attr.alg_type=%d", wb_attr->auto_attr.alg_type);
+    clog("wb_attr->auto_attr.rg_strength=%d", wb_attr->auto_attr.rg_strength);
+    clog("wb_attr->auto_attr.bg_strength=%d", wb_attr->auto_attr.bg_strength);
+    clog("wb_attr->auto_attr.speed=%d", wb_attr->auto_attr.speed);
+    clog("wb_attr->auto_attr.zone_sel=%d", wb_attr->auto_attr.zone_sel);
+    clog("wb_attr->auto_attr.high_color_temp=%d", wb_attr->auto_attr.high_color_temp);
+    clog("wb_attr->auto_attr.low_color_temp=%d", wb_attr->auto_attr.low_color_temp);
+    clog("wb_attr->auto_attr.ct_limit.enable=%d", wb_attr->auto_attr.ct_limit.enable);
+    clog("wb_attr->auto_attr.ct_limit.op_type=%d", wb_attr->auto_attr.ct_limit.op_type);
+    clog("wb_attr->auto_attr.ct_limit.high_rg_limit=%d", wb_attr->auto_attr.ct_limit.high_rg_limit);
+    clog("wb_attr->auto_attr.ct_limit.high_bg_limit=%d", wb_attr->auto_attr.ct_limit.high_bg_limit);
+    clog("wb_attr->auto_attr.ct_limit.low_rg_limit=%d", wb_attr->auto_attr.ct_limit.low_rg_limit);
+    clog("wb_attr->auto_attr.ct_limit.low_bg_limit=%d", wb_attr->auto_attr.ct_limit.low_bg_limit);
+    clog("wb_attr->auto_attr.shift_limit_en=%d", wb_attr->auto_attr.shift_limit_en);
+    clog("wb_attr->auto_attr.shift_limit=%d", wb_attr->auto_attr.shift_limit);
+    clog("wb_attr->auto_attr.gain_norm_en=%d", wb_attr->auto_attr.gain_norm_en);
+    clog("wb_attr->auto_attr.natural_cast_en=%d", wb_attr->auto_attr.natural_cast_en);
+    clog("wb_attr->auto_attr.cb_cr_track.enable=%d", wb_attr->auto_attr.cb_cr_track.enable);
+    clog("wb_attr->auto_attr.cb_cr_track.cr_max[0]=%d", wb_attr->auto_attr.cb_cr_track.cr_max[0]);
+    clog("wb_attr->auto_attr.cb_cr_track.cr_min[0]=%d", wb_attr->auto_attr.cb_cr_track.cr_min[0]);
+    clog("wb_attr->auto_attr.cb_cr_track.cb_max[0]=%d", wb_attr->auto_attr.cb_cr_track.cb_max[0]);
+    clog("wb_attr->auto_attr.cb_cr_track.cb_min[0]=%d", wb_attr->auto_attr.cb_cr_track.cb_min[0]);
+    clog("wb_attr->auto_attr.luma_hist.enable=%d", wb_attr->auto_attr.luma_hist.enable);
+    clog("wb_attr->auto_attr.luma_hist.op_type=%d", wb_attr->auto_attr.luma_hist.op_type);
+    clog("wb_attr->auto_attr.luma_hist.hist_thresh[0]=%d", wb_attr->auto_attr.luma_hist.hist_thresh[0]);
+    clog("wb_attr->auto_attr.luma_hist.hist_wt[0]=%d", wb_attr->auto_attr.luma_hist.hist_wt[0]);
+    clog("wb_attr->auto_attr.awb_zone_wt_en=%d", wb_attr->auto_attr.awb_zone_wt_en);
+    clog("wb_attr->auto_attr.zone_wt[0]=%d", wb_attr->auto_attr.zone_wt[0]);
+    clog("wb_attr->alg_type=%d", wb_attr->alg_type);
+
+    clog("%s end", __FUNCTION__);
+}
+
+<3>05:12:20.200 TripleCamera.cpp:3814 ot_isp_wb_attr_print start
+<3>05:12:20.200 TripleCamera.cpp:3816 wb_attr->bypass=0
+<3>05:12:20.200 TripleCamera.cpp:3817 wb_attr->awb_run_interval=2
+<3>05:12:20.200 TripleCamera.cpp:3818 wb_attr->op_type=0
+<3>05:12:20.200 TripleCamera.cpp:3820 wb_attr->manual_attr.r_gain=256
+<3>05:12:20.200 TripleCamera.cpp:3821 wb_attr->manual_attr.gr_gain=256
+<3>05:12:20.201 TripleCamera.cpp:3822 wb_attr->manual_attr.gb_gain=256
+<3>05:12:20.201 TripleCamera.cpp:3823 wb_attr->manual_attr.b_gain=256
+<3>05:12:20.201 TripleCamera.cpp:3825 wb_attr->auto_attr.enable=1
+<3>05:12:20.201 TripleCamera.cpp:3826 wb_attr->auto_attr.ref_color_temp=5000
+<3>05:12:20.201 TripleCamera.cpp:3827 wb_attr->auto_attr.static_wb[0]=527
+<3>05:12:20.201 TripleCamera.cpp:3828 wb_attr->auto_attr.curve_para[0]=1
+<3>05:12:20.201 TripleCamera.cpp:3829 wb_attr->auto_attr.alg_type=1
+<3>05:12:20.201 TripleCamera.cpp:3830 wb_attr->auto_attr.rg_strength=128
+<3>05:12:20.201 TripleCamera.cpp:3831 wb_attr->auto_attr.bg_strength=128
+<3>05:12:20.201 TripleCamera.cpp:3832 wb_attr->auto_attr.speed=256
+<3>05:12:20.201 TripleCamera.cpp:3833 wb_attr->auto_attr.zone_sel=32
+<3>05:12:20.201 TripleCamera.cpp:3834 wb_attr->auto_attr.high_color_temp=10000
+<3>05:12:20.201 TripleCamera.cpp:3835 wb_attr->auto_attr.low_color_temp=2500
+<3>05:12:20.201 TripleCamera.cpp:3836 wb_attr->auto_attr.ct_limit.enable=1
+<3>05:12:20.201 TripleCamera.cpp:3837 wb_attr->auto_attr.ct_limit.op_type=0
+<3>05:12:20.201 TripleCamera.cpp:3838 wb_attr->auto_attr.ct_limit.high_rg_limit=384
+<3>05:12:20.201 TripleCamera.cpp:3839 wb_attr->auto_attr.ct_limit.high_bg_limit=128
+<3>05:12:20.201 TripleCamera.cpp:3840 wb_attr->auto_attr.ct_limit.low_rg_limit=128
+<3>05:12:20.201 TripleCamera.cpp:3841 wb_attr->auto_attr.ct_limit.low_bg_limit=464
+<3>05:12:20.201 TripleCamera.cpp:3842 wb_attr->auto_attr.shift_limit_en=1
+<3>05:12:20.201 TripleCamera.cpp:3843 wb_attr->auto_attr.shift_limit=64
+<3>05:12:20.201 TripleCamera.cpp:3844 wb_attr->auto_attr.gain_norm_en=1
+<3>05:12:20.201 TripleCamera.cpp:3845 wb_attr->auto_attr.natural_cast_en=0
+<3>05:12:20.201 TripleCamera.cpp:3846 wb_attr->auto_attr.cb_cr_track.enable=1
+<3>05:12:20.201 TripleCamera.cpp:3847 wb_attr->auto_attr.cb_cr_track.cr_max[0]=336
+<3>05:12:20.201 TripleCamera.cpp:3848 wb_attr->auto_attr.cb_cr_track.cr_min[0]=48
+<3>05:12:20.201 TripleCamera.cpp:3849 wb_attr->auto_attr.cb_cr_track.cb_max[0]=304
+<3>05:12:20.201 TripleCamera.cpp:3850 wb_attr->auto_attr.cb_cr_track.cb_min[0]=48
+<3>05:12:20.201 TripleCamera.cpp:3851 wb_attr->auto_attr.luma_hist.enable=1
+<3>05:12:20.201 TripleCamera.cpp:3852 wb_attr->auto_attr.luma_hist.op_type=0
+<3>05:12:20.201 TripleCamera.cpp:3853 wb_attr->auto_attr.luma_hist.hist_thresh[0]=0
+<3>05:12:20.201 TripleCamera.cpp:3854 wb_attr->auto_attr.luma_hist.hist_wt[0]=32
+<3>05:12:20.201 TripleCamera.cpp:3855 wb_attr->auto_attr.awb_zone_wt_en=0
+<3>05:12:20.201 TripleCamera.cpp:3856 wb_attr->auto_attr.zone_wt[0]=8
+<3>05:12:20.201 TripleCamera.cpp:3857 wb_attr->alg_type=0
+<3>05:12:20.201 TripleCamera.cpp:3859 ot_isp_wb_attr_print end
+
+
+20230324
+spz0203项目
+//日志输出ot_isp_exp_info信息
+void ot_isp_exp_info_print(ot_isp_exp_info *exp_info)
+{
+    clog("%s start", __FUNCTION__);
+
+    clog("exp_info->exp_time=%d", exp_info->exp_time);
+    clog("exp_info->short_exp_time=%d", exp_info->short_exp_time);
+    clog("exp_info->median_exp_time=%d", exp_info->median_exp_time);
+    clog("exp_info->long_exp_time=%d", exp_info->long_exp_time);
+    clog("exp_info->a_gain=%d", exp_info->a_gain);
+    clog("exp_info->d_gain=%d", exp_info->d_gain);
+    clog("exp_info->a_gain_sf=%d", exp_info->a_gain_sf);
+    clog("exp_info->d_gain_sf=%d", exp_info->d_gain_sf);
+    clog("exp_info->isp_d_gain=%d", exp_info->isp_d_gain);
+    clog("exp_info->exposure=%d", exp_info->exposure);
+    clog("exp_info->exposure_is_max=%d", exp_info->exposure_is_max);
+    clog("exp_info->hist_error=%d", exp_info->hist_error);
+    clog("exp_info->ae_hist1024_value=%d", exp_info->ae_hist1024_value[0]);
+    clog("exp_info->ave_lum=%d", exp_info->ave_lum);
+    clog("exp_info->lines_per500ms=%d", exp_info->lines_per500ms);
+    clog("exp_info->piris_fno=%d", exp_info->piris_fno);
+    clog("exp_info->fps=%d", exp_info->fps);
+    clog("exp_info->iso=%d", exp_info->iso);
+    clog("exp_info->isosf=%d", exp_info->isosf);
+    clog("exp_info->iso_calibrate=%d", exp_info->iso_calibrate);
+    clog("exp_info->ref_exp_ratio=%d", exp_info->ref_exp_ratio);
+    clog("exp_info->wdr_exp_coef=%d", exp_info->wdr_exp_coef);
+    clog("exp_info->first_stable_time=%d", exp_info->first_stable_time);
+    clog("exp_info->quick_star_iso=%d", exp_info->quick_star_iso);
+    //clog("exp_info->ae_route=%d", exp_info->ae_route);
+    //clog("exp_info->ae_route_ex=%d", exp_info->ae_route_ex);
+    //clog("exp_info->ae_route_sf=%d", exp_info->ae_route_sf);
+    //clog("exp_info->ae_route_sf_ex=%d", exp_info->ae_route_sf_ex);
+
+    clog("%s end", __FUNCTION__);
+}
+
+自然光下的曝光值，需要更多曝光
+<3>05:34:30.040 TripleCamera.cpp:3085 ot_isp_exp_info_print start
+<3>05:34:30.040 TripleCamera.cpp:3087 exp_info->exp_time=32701
+<3>05:34:30.040 TripleCamera.cpp:3088 exp_info->short_exp_time=0
+<3>05:34:30.040 TripleCamera.cpp:3089 exp_info->median_exp_time=0
+<3>05:34:30.040 TripleCamera.cpp:3090 exp_info->long_exp_time=0
+<3>05:34:30.040 TripleCamera.cpp:3091 exp_info->a_gain=337664
+<3>05:34:30.040 TripleCamera.cpp:3092 exp_info->d_gain=1024
+<3>05:34:30.040 TripleCamera.cpp:3093 exp_info->a_gain_sf=1024
+<3>05:34:30.040 TripleCamera.cpp:3094 exp_info->d_gain_sf=1024
+<3>05:34:30.040 TripleCamera.cpp:3095 exp_info->isp_d_gain=1024
+<3>05:34:30.041 TripleCamera.cpp:3096 exp_info->exposure=10067085
+<3>05:34:30.041 TripleCamera.cpp:3097 exp_info->exposure_is_max=0
+<3>05:34:30.041 TripleCamera.cpp:3098 exp_info->hist_error=2
+<3>05:34:30.041 TripleCamera.cpp:3099 exp_info->ae_hist1024_value=0
+<3>05:34:30.041 TripleCamera.cpp:3100 exp_info->ave_lum=49
+<3>05:34:30.041 TripleCamera.cpp:3101 exp_info->lines_per500ms=37980
+<3>05:34:30.041 TripleCamera.cpp:3102 exp_info->piris_fno=0
+<3>05:34:30.041 TripleCamera.cpp:3103 exp_info->fps=3000
+<3>05:34:30.041 TripleCamera.cpp:3104 exp_info->iso=32975
+<3>05:34:30.041 TripleCamera.cpp:3105 exp_info->isosf=100
+<3>05:34:30.041 TripleCamera.cpp:3106 exp_info->iso_calibrate=32975
+<3>05:34:30.041 TripleCamera.cpp:3107 exp_info->ref_exp_ratio=531
+<3>05:34:30.041 TripleCamera.cpp:3108 exp_info->wdr_exp_coef=1024
+<3>05:34:30.041 TripleCamera.cpp:3109 exp_info->first_stable_time=2300000
+<3>05:34:30.041 TripleCamera.cpp:3110 exp_info->quick_star_iso=0
+<3>05:34:30.041 TripleCamera.cpp:3116 ot_isp_exp_info_print end
+
+
+强光下的曝光值，需要更少曝光
+<3>05:35:15.060 TripleCamera.cpp:3085 ot_isp_exp_info_print start
+<3>05:35:15.060 TripleCamera.cpp:3087 exp_info->exp_time=10545
+<3>05:35:15.060 TripleCamera.cpp:3088 exp_info->short_exp_time=0
+<3>05:35:15.060 TripleCamera.cpp:3089 exp_info->median_exp_time=0
+<3>05:35:15.060 TripleCamera.cpp:3090 exp_info->long_exp_time=0
+<3>05:35:15.060 TripleCamera.cpp:3091 exp_info->a_gain=65536
+<3>05:35:15.060 TripleCamera.cpp:3092 exp_info->d_gain=1024
+<3>05:35:15.060 TripleCamera.cpp:3093 exp_info->a_gain_sf=1024
+<3>05:35:15.060 TripleCamera.cpp:3094 exp_info->d_gain_sf=1024
+<3>05:35:15.060 TripleCamera.cpp:3095 exp_info->isp_d_gain=1024
+<3>05:35:15.060 TripleCamera.cpp:3096 exp_info->exposure=630063
+<3>05:35:15.060 TripleCamera.cpp:3097 exp_info->exposure_is_max=0
+<3>05:35:15.060 TripleCamera.cpp:3098 exp_info->hist_error=-3
+<3>05:35:15.060 TripleCamera.cpp:3099 exp_info->ae_hist1024_value=0
+<3>05:35:15.060 TripleCamera.cpp:3100 exp_info->ave_lum=54
+<3>05:35:15.060 TripleCamera.cpp:3101 exp_info->lines_per500ms=37980
+<3>05:35:15.060 TripleCamera.cpp:3102 exp_info->piris_fno=0
+<3>05:35:15.060 TripleCamera.cpp:3103 exp_info->fps=3000
+<3>05:35:15.061 TripleCamera.cpp:3104 exp_info->iso=6400
+<3>05:35:15.061 TripleCamera.cpp:3105 exp_info->isosf=100
+<3>05:35:15.061 TripleCamera.cpp:3106 exp_info->iso_calibrate=6400
+<3>05:35:15.061 TripleCamera.cpp:3107 exp_info->ref_exp_ratio=602
+<3>05:35:15.061 TripleCamera.cpp:3108 exp_info->wdr_exp_coef=1024
+<3>05:35:15.061 TripleCamera.cpp:3109 exp_info->first_stable_time=2300000
+<3>05:35:15.061 TripleCamera.cpp:3110 exp_info->quick_star_iso=0
+<3>05:35:15.061 TripleCamera.cpp:3116 ot_isp_exp_info_print end
+
+
+20230324
+spz0203项目
+//日志输出ot_isp_exposure_attr信息
+void ot_isp_exposure_attr_print(const ot_isp_exposure_attr *exp_attr)
+{
+    clog("%s start", __FUNCTION__);
+
+    clog("exp_attr->bypass=%d", exp_attr->bypass);
+    clog("exp_attr->op_type=%d", exp_attr->op_type);
+    clog("exp_attr->ae_run_interval=%d", exp_attr->ae_run_interval);
+    clog("exp_attr->hist_stat_adjust=%d", exp_attr->hist_stat_adjust);
+    clog("exp_attr->ae_route_ex_valid=%d", exp_attr->ae_route_ex_valid);
+    //exp_attr->manual_attr
+    clog("exp_attr->manual_attr.exp_time_op_type=%d", exp_attr->manual_attr.exp_time_op_type);
+    clog("exp_attr->manual_attr.a_gain_op_type=%d", exp_attr->manual_attr.a_gain_op_type);
+    clog("exp_attr->manual_attr.d_gain_op_type=%d", exp_attr->manual_attr.d_gain_op_type);
+    clog("exp_attr->manual_attr.ispd_gain_op_type=%d", exp_attr->manual_attr.ispd_gain_op_type);
+    clog("exp_attr->manual_attr.exp_time=%d", exp_attr->manual_attr.exp_time);
+    clog("exp_attr->manual_attr.a_gain=%d", exp_attr->manual_attr.a_gain);
+    clog("exp_attr->manual_attr.d_gain=%d", exp_attr->manual_attr.d_gain);
+    clog("exp_attr->manual_attr.isp_d_gain=%d", exp_attr->manual_attr.isp_d_gain);
+    //exp_attr->auto_attr
+    clog("exp_attr->auto_attr.exp_time_range, max=%d, min=%d", exp_attr->auto_attr.exp_time_range.max, exp_attr->auto_attr.exp_time_range.min);
+    clog("exp_attr->auto_attr.a_gain_range, max=%d, min=%d", exp_attr->auto_attr.a_gain_range.max, exp_attr->auto_attr.a_gain_range.min);
+    clog("exp_attr->auto_attr.d_gain_range, max=%d, min=%d", exp_attr->auto_attr.d_gain_range.max, exp_attr->auto_attr.d_gain_range.min);
+    clog("exp_attr->auto_attr.ispd_gain_range, max=%d, min=%d", exp_attr->auto_attr.ispd_gain_range.max, exp_attr->auto_attr.ispd_gain_range.min);
+    clog("exp_attr->auto_attr.sys_gain_range, max=%d, min=%d", exp_attr->auto_attr.sys_gain_range.max, exp_attr->auto_attr.sys_gain_range.min);
+    clog("exp_attr->auto_attr.gain_threshold=%u", exp_attr->auto_attr.gain_threshold);
+    clog("exp_attr->auto_attr.speed=%d", exp_attr->auto_attr.speed);
+    clog("exp_attr->auto_attr.black_speed_bias=%d", exp_attr->auto_attr.black_speed_bias);
+    clog("exp_attr->auto_attr.tolerance=%d", exp_attr->auto_attr.tolerance);
+    clog("exp_attr->auto_attr.compensation=%d", exp_attr->auto_attr.compensation);
+    clog("exp_attr->auto_attr.ev_bias=%d", exp_attr->auto_attr.ev_bias);
+    clog("exp_attr->auto_attr.ae_strategy_mode=%d", exp_attr->auto_attr.ae_strategy_mode);
+    clog("exp_attr->auto_attr.hist_ratio_slope=%d", exp_attr->auto_attr.hist_ratio_slope);
+    clog("exp_attr->auto_attr.max_hist_offset=%d", exp_attr->auto_attr.max_hist_offset);
+    clog("exp_attr->auto_attr.ae_mode=%d", exp_attr->auto_attr.ae_mode);
+    clog("exp_attr->auto_attr.antiflicker.enable=%d", exp_attr->auto_attr.antiflicker.enable);
+    clog("exp_attr->auto_attr.antiflicker.frequency=%d", exp_attr->auto_attr.antiflicker.frequency);
+    clog("exp_attr->auto_attr.antiflicker.mode=%d", exp_attr->auto_attr.antiflicker.mode);
+    clog("exp_attr->auto_attr.subflicker.enable=%d", exp_attr->auto_attr.subflicker.enable);
+    clog("exp_attr->auto_attr.subflicker.luma_diff=%d", exp_attr->auto_attr.subflicker.luma_diff);
+    clog("exp_attr->auto_attr.ae_delay_attr.black_delay_frame=%d", exp_attr->auto_attr.ae_delay_attr.black_delay_frame);
+    clog("exp_attr->auto_attr.ae_delay_attr.white_delay_frame=%d", exp_attr->auto_attr.ae_delay_attr.white_delay_frame);
+    clog("exp_attr->auto_attr.manual_exp_value=%d", exp_attr->auto_attr.manual_exp_value);
+    clog("exp_attr->auto_attr.fswdr_mode=%d", exp_attr->auto_attr.fswdr_mode);
+    clog("exp_attr->auto_attr.wdr_quick=%d", exp_attr->auto_attr.wdr_quick);
+    clog("exp_attr->auto_attr.iso_cal_coef=%d", exp_attr->auto_attr.iso_cal_coef);
+    clog("exp_attr->prior_frame=%d", exp_attr->prior_frame);
+    clog("exp_attr->ae_gain_sep_cfg=%d", exp_attr->ae_gain_sep_cfg);
+    clog("exp_attr->advance_ae=%d", exp_attr->advance_ae);
+
+    clog("%s end", __FUNCTION__);
+}
+
+<3>01:04:31.860 TripleCamera.cpp:3085 ot_isp_exposure_attr_print start
+<3>01:04:31.860 TripleCamera.cpp:3086 exp_attr->bypass=0
+<3>01:04:31.860 TripleCamera.cpp:3087 exp_attr->op_type=0
+<3>01:04:31.860 TripleCamera.cpp:3088 exp_attr->ae_run_interval=1
+<3>01:04:31.860 TripleCamera.cpp:3089 exp_attr->hist_stat_adjust=1
+<3>01:04:31.860 TripleCamera.cpp:3090 exp_attr->ae_route_ex_valid=0
+<3>01:04:31.860 TripleCamera.cpp:3092 exp_attr->manual_attr.exp_time_op_type=0
+<3>01:04:31.861 TripleCamera.cpp:3093 exp_attr->manual_attr.a_gain_op_type=0
+<3>01:04:31.861 TripleCamera.cpp:3094 exp_attr->manual_attr.d_gain_op_type=0
+<3>01:04:31.861 TripleCamera.cpp:3095 exp_attr->manual_attr.ispd_gain_op_type=0
+<3>01:04:31.861 TripleCamera.cpp:3096 exp_attr->manual_attr.exp_time=16384
+<3>01:04:31.861 TripleCamera.cpp:3097 exp_attr->manual_attr.a_gain=1024
+<3>01:04:31.861 TripleCamera.cpp:3098 exp_attr->manual_attr.d_gain=1024
+<3>01:04:31.861 TripleCamera.cpp:3099 exp_attr->manual_attr.isp_d_gain=1024
+<3>01:04:31.861 TripleCamera.cpp:3101 exp_attr->auto_attr.exp_time_range, max=862757, min=13
+<3>01:04:31.861 TripleCamera.cpp:3102 exp_attr->auto_attr.a_gain_range, max=4194304, min=65536
+<3>01:04:31.861 TripleCamera.cpp:3103 exp_attr->auto_attr.d_gain_range, max=16384, min=1024
+<3>01:04:31.861 TripleCamera.cpp:3104 exp_attr->auto_attr.ispd_gain_range, max=32768, min=1024
+<3>01:04:31.861 TripleCamera.cpp:3105 exp_attr->auto_attr.sys_gain_range, max=-2147483648, min=65536
+<3>01:04:31.861 TripleCamera.cpp:3106 exp_attr->auto_attr.gain_threshold=2147483648
+<3>01:04:31.861 TripleCamera.cpp:3107 exp_attr->auto_attr.speed=64
+<3>01:04:31.861 TripleCamera.cpp:3108 exp_attr->auto_attr.black_speed_bias=144
+<3>01:04:31.861 TripleCamera.cpp:3109 exp_attr->auto_attr.tolerance=2
+<3>01:04:31.861 TripleCamera.cpp:3110 exp_attr->auto_attr.compensation=64
+<3>01:04:31.861 TripleCamera.cpp:3111 exp_attr->auto_attr.ev_bias=1024
+<3>01:04:31.861 TripleCamera.cpp:3112 exp_attr->auto_attr.ae_strategy_mode=0
+<3>01:04:31.861 TripleCamera.cpp:3113 exp_attr->auto_attr.hist_ratio_slope=128
+<3>01:04:31.861 TripleCamera.cpp:3114 exp_attr->auto_attr.max_hist_offset=16
+<3>01:04:31.861 TripleCamera.cpp:3115 exp_attr->auto_attr.ae_mode=1
+<3>01:04:31.861 TripleCamera.cpp:3116 exp_attr->auto_attr.antiflicker.enable=0
+<3>01:04:31.861 TripleCamera.cpp:3117 exp_attr->auto_attr.antiflicker.frequency=50
+<3>01:04:31.861 TripleCamera.cpp:3118 exp_attr->auto_attr.antiflicker.mode=0
+<3>01:04:31.861 TripleCamera.cpp:3119 exp_attr->auto_attr.subflicker.enable=0
+<3>01:04:31.861 TripleCamera.cpp:3120 exp_attr->auto_attr.subflicker.luma_diff=50
+<3>01:04:31.861 TripleCamera.cpp:3121 exp_attr->auto_attr.ae_delay_attr.black_delay_frame=8
+<3>01:04:31.861 TripleCamera.cpp:3122 exp_attr->auto_attr.ae_delay_attr.white_delay_frame=0
+<3>01:04:31.861 TripleCamera.cpp:3123 exp_attr->auto_attr.manual_exp_value=0
+<3>01:04:31.861 TripleCamera.cpp:3124 exp_attr->auto_attr.fswdr_mode=0
+<3>01:04:31.861 TripleCamera.cpp:3125 exp_attr->auto_attr.wdr_quick=0
+<3>01:04:31.861 TripleCamera.cpp:3126 exp_attr->auto_attr.iso_cal_coef=256
+<3>01:04:31.861 TripleCamera.cpp:3127 exp_attr->prior_frame=0
+<3>01:04:31.861 TripleCamera.cpp:3128 exp_attr->ae_gain_sep_cfg=0
+<3>01:04:31.861 TripleCamera.cpp:3129 exp_attr->advance_ae=0
+<3>01:04:31.861 TripleCamera.cpp:3130 ot_isp_exposure_attr_print end
+
